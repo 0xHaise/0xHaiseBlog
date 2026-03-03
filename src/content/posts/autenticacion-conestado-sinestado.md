@@ -1,5 +1,5 @@
 ---
-title: autenticacion con estado y sin estado
+title: autenticacion-con-estadoysinestado
 published: 2026-03-2
 description: 'Breve explicación sobre la autenticación con estado y sin estado,
 sus diferencias y casos de uso.'
