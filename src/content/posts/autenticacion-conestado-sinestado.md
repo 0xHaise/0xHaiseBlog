@@ -22,6 +22,9 @@ La autenticación basada en cookies ha sido el método predeterminado y probado 
 
 ### Flujo de autenticación con Cookies
 
+
+[concookies](./concookies.png)
+
 ```mermaid
 sequenceDiagram
     actor Usuario
@@ -65,6 +68,8 @@ sequenceDiagram
 La autenticación basada en tokens es **stateless**. El servidor no lleva registro de qué usuarios están conectados ni qué JWTs han sido emitidos. En cambio, cada solicitud al servidor va acompañada de un token que el servidor usa para verificar la autenticidad. El token generalmente se envía como un encabezado `Authorization` adicional en la forma `Bearer {JWT}`, aunque también puede enviarse en el cuerpo de una solicitud POST o como parámetro de consulta.
 
 ### Flujo de autenticación con JWT (Token)
+
+[conjwt](./conjwt.png)
 
 ```mermaid
 sequenceDiagram
