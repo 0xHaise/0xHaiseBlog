@@ -4,8 +4,8 @@ published: 2026-03-2
 description: 'Breve explicación sobre la autenticación con estado y sin estado,
 sus diferencias y casos de uso.'
 image: ''
-tags: [web, seguridad, autenticación]
-category: 'seguridad'
+tags: []
+category: ''
 draft: false 
 lang: ''
 ---
