@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "0xHaise - Blog",
+	title: "0xIncaInsider - Blog",
 	subtitle: "Blog",
 	lang: "es", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -46,7 +46,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/0xHaise", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/0xincainsider", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -54,7 +54,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/173845338?v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "0xHaise",
+	name: "0xIncaInsider",
 	bio: "It's a pleasure to meet you",
 	links: [
 		{
@@ -72,7 +72,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/0xHaise",
+			url: "https://github.com/0xincainsider",
 		},
 	],
 };
